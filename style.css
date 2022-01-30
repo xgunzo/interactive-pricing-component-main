@@ -11,24 +11,25 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
     display: block;
 }
 
 .header {
     background-image: url("images/pattern-circles.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: 52%;
     margin: 0 auto;
     width: 100%;
     display: block;
-    margin-top: 1em;
-    height: 15rem;
+    margin-top: 4em;
+    height: 11.5rem;
 }
 
 .header h1 {
-    padding-top: 4em;
-    font-size: 20px;
+    padding-top: 1.5em;
+    font-size: 22px;
     font-weight: 800;
     text-align: center;
 }
@@ -40,40 +41,103 @@ body {
     width: 62%;
     margin: 0 auto;
     text-align: center;
+    line-height: 25px;
 }
 
 .pageviews {
     background-color: hsl(0, 0%, 100%);
-    height: 16rem;
+    height: 18rem;
     border-radius: 10px 10px 0 0;
-    border: 1px solid black;
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pageviews-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: hsl(225, 20%, 60%);
+    padding-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.range {
+    width: 85%;
+    margin-top: 1.5em;
+}
+
+#dollars_per_month {
+    color: #333;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.monthly {
+    padding-top: 1.5em;
+    color: hsl(225, 20%, 60%);
+    font-size: 15px;
+
+}
+
+.billing {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 2em;
+    font-size: 13px;
+    font-weight: 600;
+    color: hsl(225, 20%, 60%);
+}
+
+.percentage {
+    background-color: hsl(14, 92%, 95%);
+    color: hsl(15, 100%, 70%);
+    border-radius: 50px;
+    padding: 0.25em 0.75em;
 }
 
 .trial {
     background-color: hsl(0, 0%, 100%);
     height: 13rem;
-    margin-top: 1px;
+    margin-top: -0.9em;
     border-radius: 0 0 10px 10px;
-    border: 1px solid black;
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.15);
 }
 
 .checklist {
     margin: 0 auto;
+    color: hsl(225, 20%, 60%);
     text-align: center;
     font-size: 15px;
+    font-weight: 600;
 }
 
 .checklist ul {
-
+    list-style-position: inside;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-top: 1em;
 }
 
-.checklist ul li {
+.checklist li:first-of-type {
+    padding-top: 2em;
+}
+
+.checklist li {
     list-style-image: url("images/icon-check.svg");
     padding-top: 0.5em;
-}    
+}   
+
+.checklist ul li span {
+    padding-left: 0.5em;
+}
 
 .trial_button {
-    margin-top: 1.5em;
+    margin-top: 2em;
     margin: 2em auto;
     display: block;
     border: none;
