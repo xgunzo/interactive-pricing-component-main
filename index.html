@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
   
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -24,15 +25,21 @@
   </div>
 
   <div class="pageviews">
-    <p class="pageviews-title"><span>100k </span>Pageviews</p>
+    <p class="pageviews-title"><span id="value"> </span>k Pageviews</p>
     
   
-    <input type="range" class="range">
-    <p class="monthly"><span id="dollars_per_month">$16.00 </span>/ month</p>
+    <input type="range" id="range" class="range" min="1" max="100">
+    <p class="monthly"><span id="dollars_per_month">$8.16 </span>/ month</p>
 
     <div class="billing">
-      <div>Monthly Billing</div>
-      <div>Yearly Billing</div> 
+      <div><span class="billing-text">Monthly Billing</span></div>
+      <div>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="toggle"></span>
+        </label>
+      </div>
+      <div><span class="billing-text">Yearly Billing</span></div> 
       <div class="percentage">-25%</div>
     </div>
   </div>
