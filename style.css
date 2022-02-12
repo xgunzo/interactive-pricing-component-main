@@ -277,6 +277,204 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
+@media screen and (min-width: 396px) {
+    .header {
+        background-size: 45%;
+    }
+}
+
+@media screen and (min-width: 456px) {
+    .header {
+        background-size: 35%;
+    }
+}
+
+@media screen and (min-width: 588px) {
+    .header {
+        background-size: 30%;
+    }
+}
+@media screen and (min-width: 396px) {
+    .header {
+        background-size: 25%;
+    }
+}
+
+@media screen and (min-width: 824px) {
+    .header {
+        background-size: 20%;
+    }
+}
+
+@media screen and (min-width: 1032px) {
+    .header {
+        background-size: 17%;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    
+    body {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .wrapper {
+        width: 40%;
+    }
+    
+    .header {
+        background-size: 30%;
+        margin: 0 auto;
+        margin-top: 4em;
+        height: 11.5rem;
+    }
+    
+    .header h1 {
+        padding-top: 1.5em;
+        font-size: 26px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .header p {
+        width: 70%;
+        line-height: 10px;
+        transform: scale(0.9);
+    }
+    
+    .pageviews {
+        background-color: hsl(0, 0%, 100%);
+        height: 16rem;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1em;
+    }
+    
+    .pageviews-flex {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .pageviews-title {
+        width: 50%;
+        text-align: left;
+        padding-top: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    #dollars_per_month {
+        color: #333;
+        font-size: 40px;
+        font-weight: 800;
+        position: relative;
+        top: 0.25em;
+    }
+    
+    .monthly-flex {
+        display: block;
+        width: 50%;
+        text-align: right;
+        padding-top: 1.25em;
+        color: hsl(225, 20%, 60%);
+    }
+    
+    .monthly {
+       display: none;
+    }
+    
+    .billing {
+        display: flex;
+        justify-content: end;
+        padding-left: 3em;
+        padding-right: 1em;
+        padding-top: 4em;
+        font-size: 13px;
+        font-weight: 600;
+        color: hsl(225, 20%, 60%);
+        gap: 10px;
+    }
+    
+    .billing-text {
+        position: relative;
+        top: 0.25em;
+    }
+    
+    .percentage {
+        display: none;
+    }
+    
+    .percentage-pc {
+        display: block;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 50px;
+        padding: 0.5em 0.75em;
+        margin-right: 5em;
+        font-size: 10px;
+    }
+    
+    .trial {
+        height: 10rem;
+        margin-top: -0.9em;
+        box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.15);
+        display: flex;
+    }
+    
+    .checklist {
+        text-align: left;
+        width: 50%
+    }
+    
+    .checklist ul {
+        list-style-position: inside;
+        margin: 0 auto;
+        display: block;
+        text-align: left;
+        padding: 0;
+        margin-top: 1em;
+    }
+    
+    .checklist li {
+        padding-top: 0em;
+        text-align: left;
+        padding-left: 4em;
+    }
+    
+    .start-trial-button {
+        width: 50%;
+    }
+    
+    .trial_button {
+        margin: 3.5em auto;
+    }
+    
+    .trial_button:hover {
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        bottom: 0;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        padding-bottom: 0.5rem;
+    }
+    
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    
+}
+
 
 @media screen and (min-width: 1440px) {
  
@@ -397,7 +595,8 @@ body {
     display: block;
     text-align: left;
     padding: 0;
-    margin-top: 1em;
+    margin-top: 0.2em;
+    line-height: 30px;
 }
 
 .checklist li {
@@ -431,5 +630,78 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+}
+
+@media screen and (min-width: 1750px) {
+    .wrapper {
+        width: 35%;
+    }
+
+    .header {
+        background-size: 27%;
+    }
+
+    .header h1 {
+        padding-top: 1.5em;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .header p {
+        width: 90%;
+        line-height: 10px;
+        font-size: 19px;
+    }
+
+    .pageviews {
+        margin-top: 1em;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .wrapper {
+        width: 35%;
+    }
+
+    .header {
+        background-size: 25%;
+        margin-top: 6em;
+        height: 13rem;
+    }
+
+    .header h1 {
+        padding-top: 1.5em;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .header p {
+        width: 90%;
+        line-height: 10px;
+        font-size: 19px;
+    }
+
+    .pageviews {
+        margin-top: 4em;
+        height: 19rem;
+    }
+
+    .range {
+        top: 1em;
+        position: relative;
+    }
+
+    .billing {
+        display: flex;
+        justify-content: end;
+        padding-left: 3em;
+        padding-right: 2em;
+        padding-top: 6em;
+        gap: 20px;
+    }
 
 }
