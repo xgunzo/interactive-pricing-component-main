@@ -3,6 +3,8 @@ window.onload = function() {
     let slider = document.getElementById("range");
     let output = document.getElementById("value");
     let price = document.getElementById("dollars_per_month");
+    let price_mobile = document.getElementById("dollars_per_month_mobile");
+
 
 
     output.innerHTML = slider.value;
@@ -20,6 +22,7 @@ window.onload = function() {
       let monthlyPrice = parseFloat(x * priceRate);
       monthlyPrice = monthlyPrice.toFixed(2);
       price.innerHTML = "$" + monthlyPrice;
+      price_mobile.innerHTML = "$" + monthlyPrice;
 
     })
 
